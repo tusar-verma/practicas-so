@@ -1,0 +1,2 @@
+Como la FAT no está cargada en memoria, por cada bloque del archivo vamos a tener que hacer un acceso a disco para obtener el siguiente bloque. 
+Tenemos N bloques, por lo que necesitamos N-1 accesos a disco para obtener los valores de la tabla FAT (1 por cada bloque) hasta llegar al último.
